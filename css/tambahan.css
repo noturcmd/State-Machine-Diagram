@@ -1,0 +1,153 @@
+
+@keyframes slidetoright {
+    0%{
+        left: -80px;
+        opacity: 0;
+    }
+    100%{
+        left: 0;
+        opacity: 1;
+    }
+}
+
+
+@keyframes gradasi2 {
+    0%{
+        background-position: right;
+    }
+    100%{
+        background-position: left;
+    }
+}
+
+
+@keyframes changeColor {
+    0% { fill: rgb(51, 48, 48); } /* Warna awal */
+    100% { fill: #7b7256; } /* Warna tengah */
+}                  
+
+#thanks path {
+    animation: changeColor 3s infinite alternate;
+}
+
+
+.icon-block-description b{
+    color: #D2B356;
+}
+
+
+.center-block{
+    margin-left: 200px;
+    display: block;
+}
+
+.center-block h3{
+    margin-left: -400px;
+    color: #D2B356;
+}
+
+.center-block hr{
+    margin-left: -230px;
+    width: 1300px;
+    height: 20px;
+    border-radius: 50px;
+    box-shadow: inset 2px 2px gray;
+    
+}
+
+#kelebihan h3, #kekurangan h3{
+    text-shadow: 3px 3px 3px #c0beb8;
+    color: black;
+}
+#kelebihan p, #kekurangan p{
+    font-family: "Expletus Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 00;
+    font-style: normal;
+}
+
+.kelebihan h1{
+    font-size: 50px;
+    position: relative;
+    top: -20px;
+}
+
+.kekurangan{
+    position: relative;
+    top: -10px;
+    font-size: 50px;
+}
+
+.sekat{
+    box-shadow: 1px 0px 0px black;
+}
+
+#logo{
+    width: 110%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+section#thanks{
+    width: 100%;
+    height: 810px;
+    line-height: 210px;
+}
+
+section#thanks h1{
+    font-size: 80px;
+    margin: auto;
+    background-image: linear-gradient(to left, #051937, gray, #D2B356);
+    background-size: 400%;
+    background-clip: text;
+    color: transparent;
+    transition: .8s;
+    animation: gradasi2 10s infinite alternate;
+}
+
+.full1{
+    margin-top: 200px;
+    /* background-color: red; */
+    position: absolute;
+    right: 50px;
+    z-index: 1;
+}
+
+#panel1, #flip, #panel2, #panel3 {
+    padding: 5px;
+    /* background-color: #e5eecc;
+    border: solid 1px #c3c3c3; */
+}
+
+#panel1, #panel2, #panel3 {
+    padding: 50px;
+    display: none;
+    /* background-color: gray; */
+}
+
+#panel1{
+    margin-top: -100px;
+}
+
+#panel2, #panel3{
+    margin-top: -100px;
+}
+
+#services{
+    /* background-color: red; */
+    /* height: 800px; */
+}
+
+.tinggi{
+    height: 600px;
+}
+
+#thanks svg{
+    position: relative;
+    bottom: 0px;
+}
+
+div .atm{
+    margin-left: -180px;
+}
